@@ -1,6 +1,6 @@
 P:pod::Spec.new do |s|
-  s.name     = 'DebugLog'
-  s.version  = '1.0.0'
+  s.name     = ‘iosDebugLog'
+  s.version  = ‘1.0.0’
   s.license  = 'MIT'
   s.summary  = 'A tool of debug log'
   s.homepage = 'https://github.com/liuyufeng2014/DebugLog'
