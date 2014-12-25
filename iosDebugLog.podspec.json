@@ -15,8 +15,7 @@
 
        "source":
        {
-         "http": "https://github.com/liuyufeng2014/DebugLog.git",
-          "tag":"1.0.1"
+         "http": "https://github.com/liuyufeng2014/DebugLog.git"
        },
         "homepage": "https://github.com/liuyufeng2014/DebugLog",
         "requires_arc":true,
