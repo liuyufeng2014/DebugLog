@@ -2,15 +2,11 @@
      "name": "iosDebugLog",
      "platforms":
       {
-           "ios": “6.0”
+           "ios": null
        },
-       "version": “1.0.1”,
-       "license":
-       {
-         "type": "MIT",
-         "file": “LICENSE”
-       },
-       "summary": "A tool of debug log",
+       "version": "1.0.1",
+       "license": "MIT",
+        "summary": "A tools of debug log",
  
        "authors":
        {
@@ -19,13 +15,11 @@
 
        "source":
        {
-         "http": "https://github.com/liuyufeng2014/DebugLog.git"
+         "http": "https://github.com/liuyufeng2014/DebugLog.git",
+          "tag":"1.0.1"
        },
         "homepage": "https://github.com/liuyufeng2014/DebugLog",
-       "source_files": 
-      [
-         "DebugLog.h",
-         "DebugLog/DebugLog/**/*.{h,m}"
-       ],
-  
+        "requires_arc":true,
+       "source_files": "Source"
+    
 }
