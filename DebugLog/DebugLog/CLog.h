@@ -20,11 +20,15 @@
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
  hello
  该部分宏定义的功能配合写日志函数可以创建日志。
 =======
  创建日志
  创建日志
+=======
+ 
+>>>>>>> origin/Developer
  创建日志
  该部分宏定义的功能配合写日志函数可以创建日志。--------
 >>>>>>> Developer
@@ -40,7 +44,7 @@
 //#define LOG_CMETHOD NSLog(@"%@/%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd))
 //#define COUNT(p)    NSLog(@"%s(%d): count = %d\n", __func__, __LINE__, [p retainCount]);
 //
-//#define LOG_TRACE(x) do{ printf x; putchar('\n'); fflush(stdout);} while (0)
+#define LOG_TRACE(x) do{ printf x; putchar('\n'); fflush(stdout);} while (0)
 //
 //
 //#else
