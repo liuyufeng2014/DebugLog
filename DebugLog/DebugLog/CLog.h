@@ -24,7 +24,7 @@
 
 //#ifndef DEBUG
 //#define NSLog(format,...)
-//#define LOG(fmt, ...) do {NSString* file = [[NSString alloc] initWithFormat:@"%s", __FILE__]; NSLog((@"%@(%d)%s " fmt), [file lastPathComponent], __LINE__, ##__VA_ARGS__,__func__);} while(0)
+#define LOG(fmt, ...) do {NSString* file = [[NSString alloc] initWithFormat:@"%s", __FILE__]; NSLog((@"%@(%d)%s " fmt), [file lastPathComponent], __LINE__, ##__VA_ARGS__,__func__);} while(0)
 
 //
 //
@@ -36,8 +36,8 @@
 //
 //
 //#else
-#define NSLog(format,...)
-#define LOG(...)
+//#define NSLog(format,...)
+//#define LOG(...)
 //#define LOG_METHOD
 //#define LOG_CMETHOD
 //#define COUNT(p)
