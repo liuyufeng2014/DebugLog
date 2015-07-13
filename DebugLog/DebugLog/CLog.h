@@ -21,6 +21,7 @@
 /*
  
  在 hotfixes 分支上修改1.0的bug
+ 继续在hotfixes 分支上修改代码
 <<<<<<< HEAD
 <<<<<<< HEAD
  hello
