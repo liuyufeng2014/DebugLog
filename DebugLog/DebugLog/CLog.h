@@ -19,6 +19,8 @@
 //#endif
 
 /*
+ 
+ 在 hotfixes 分支上修改1.0的bug
 <<<<<<< HEAD
 <<<<<<< HEAD
  hello
