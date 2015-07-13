@@ -10,6 +10,15 @@
 //  Created by liu yufeng on 13-1-12.
 //  Copyright (c) 2013年 liu yufeng. All rights reserved.
 
+/***************************************************
+    文件名称：UncaughtExceptionHandler.h
+    作   者：刘玉锋
+    备   注：获取crash头文件
+    创建时间：2012-11-29
+    修改历史：
+    版权声明：Copyright 2011 . All rights reserved.
+ ***************************************************/
+
 
 #import <Foundation/Foundation.h>
 //#import <UIKit/UIKit.h>
